@@ -28,6 +28,8 @@ print("endswith(): checks ending of string for given value-suppose 'language'-",
 # startswith function- Returns value True if string starts with given value
 print("startswith(): checks starting of string for given value-suppose 'check'-", str1.startswith("check"))
 
+# capitalize(): It converts first letter of string into capital letter
+print("capitalize(): It converts first letter of string into capital letter- ", str3.capitalize())
 # find function- It returns starting index value of given substring in main string if found
 #             - If the given substring is not present in main string it returns value -1
 #             - If the given substring is present multiple times it returns index value for first occurance
