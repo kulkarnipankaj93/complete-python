@@ -1,0 +1,36 @@
+Environment creation steps
+
+What is pip?
+# pip is package manager for python packages
+# From python version 3.4 onwards pip is comes preinstalled with python
+# To know version of pip installed on machine command - pip --version
+# To install third party libraries command - pip install numpy
+# Now to use newly installed library simply import that into python module
+# To get list of all libraries installed command - pip list
+
+
+What is virtual Environment?
+# A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated Python virtual environments for them.
+# simply we create different environments for different projects and store all the required libraries with different version in to that particular environment
+
+How to create environment(for windows)?
+# Open command prompt --> go to required location --> run command python -m venv env1(environment name)
+# Once environment is created it creates folder with environment name which has few default folders
+# To list down those folders enter environment name folder and run command --> dir
+# Default folders are - Include,lib, Scripts, pyvenv.cfg
+# To use this environment we need to activate that environment
+# We need to run file activate.bat which is present in Scripts folder
+# Go to environment folder (by using cd command) and run command --> Scripts\activate.bat
+# Now as the environment is activated we can simply install required libraries with required versions in to the env
+# Command to install libraries - pip install numpy==2.3(library name with version)
+# Newly installed libraries are installed at following path --> env1 -> lib -> site-packages -> numpy
+# To list down all libraries present in environment run command --> pip list
+# To deactivate the environment simply run command - deactivate
+
+
+What is requirement.txt?
+# Requirement.txt is basically a text file which contains list of all the libraries with their versions
+# Required for our project
+# Now we can simply run this file using following command so that it will install all libraries at once
+# And we will not be required to install each library separately
+# Command to run -> pip install -r requirement.txt(file name)
