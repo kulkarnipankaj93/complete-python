@@ -26,3 +26,4 @@ def func():
 
 for j in func():
     print(j)
+

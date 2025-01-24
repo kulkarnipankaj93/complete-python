@@ -8,13 +8,14 @@
 
 
 # Example for positional argument
-def addition(x,y):
-    print(x,y)
+def addition(x, y):
+    print(x, y)
     return x+y
 
-a=10
-b=20
-result1 = addition(a,b)
+
+a = 10
+b = 20
+result1 = addition(a, b)
 print(result1)
 
 
@@ -24,8 +25,8 @@ def message(name,course_name="python"):
 
 
 message("Akshay","python")
-message("pankaj")        # Here it uses default value as python
-message("soni","devops")
+message("pankaj")                               # Here it uses default value as python
+message("laxman","devops")
 
 
 # Example for keyword argument
@@ -33,7 +34,7 @@ def student(name,roll_num):
     print(f"name of student is {name} and ID is {roll_num}")
 
 
-student(roll_num=23,name="pankaj")
+student(roll_num=23, name="pankaj")
 
 
 # Combination of positional and keyword - positional argument followed by keyword argument
@@ -49,21 +50,21 @@ def cal_square(*args):
         print(i*i)
 
 
-a=[5,6,7]
-cal_square(1,2,3,4)
+a = [5, 6, 7]
+cal_square(1, 2, 3, 4)
 cal_square(*a)
 
 
-# Variable number keyword arguments-
+# Variable number keyword arguments -
 # Used when we pass key and values to arguments but not sure about its number.
 # ** is used before argument and it will convert variables into dictionary.
 # we can provide any number of values or no values.
 
 def obj_color(**kwarg):
     print(kwarg)
-    for key,value in kwarg.items():
-        print(key,value)
+    for key, value in kwarg.items():
+        print(key, value)
 
 
-b={"rose":"red","sky":"blue"}
+b = {"rose": "red", "sky": "blue"}
 obj_color(**b)

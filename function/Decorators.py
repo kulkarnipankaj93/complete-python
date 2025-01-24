@@ -5,16 +5,18 @@
 # 1st way
 def my_decorator(func):
     print("in decorator function")
+
     def wrapper(a,b):
         print("in inner function")
-        if b==0:
+        if b == 0:
             print("b value is 0")
         else:
-            func(a,b)
+            func(a, b)
     return wrapper
 
+
 @my_decorator
-def divide(a,b):
+def divide(a, b):
     print("inside divide function")
     result = a/b
     print(result)
@@ -22,6 +24,7 @@ def divide(a,b):
 
 divide(10,2)
 divide(10,0)
+
 
 # 2st way
 def my_decorator(func):
@@ -34,8 +37,10 @@ def my_decorator(func):
         print("After calling function")
     return wrapper
 
+
 def say_hello(name):
     print(f"from function hello {name}")
+
 
 var1 = my_decorator(say_hello)
 var1("pankaj")

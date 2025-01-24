@@ -1,13 +1,13 @@
 # function- self contained block of codes that encapsulates a specific task or group of tasks.
-# program- write down program to find out given number is even or odd using function
+# program - write down program to find out given number is even or odd using function
 
 # benefits of using function-
-# 1- code Reusable- we can use same function multiple times in our program
+# 1- code Reusable - we can use same function multiple times in our program
 # 2- code Readability- functions breaks code into chunks which makes program readable and reusable
 
 # Types of functions-
-# 1- standard library functions- these are builtin functions in python
-# 2- user-defined functions- we can create our own functions
+# 1- standard library functions - these are builtin functions in python
+# 2- user-defined functions - we can create our own functions
 
 # Parts of function definition-def keyword, function name, arguments, return statement
 # def keyword- it defines function.
@@ -27,11 +27,5 @@ def addition(a,b):                     # function definition
 
 
 result1 = addition(10,20)        # function calling and capturing return value
-print("addition result is-",result1)
-
-
-
-
-
-
+print("addition result is-", result1)
 
