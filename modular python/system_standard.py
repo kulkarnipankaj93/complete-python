@@ -2,10 +2,11 @@
 import sys
 
 
-def addition(a,b):
+def addition(a, b):
     print(int(a)+int(b))
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     print(f"in {__name__} module")
     print(sys.argv)
     print(f"file name passed {sys.argv[0]}")

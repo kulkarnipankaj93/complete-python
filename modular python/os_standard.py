@@ -2,8 +2,8 @@
 import os
 
 # to get current working directory
-dir = os.getcwd()
-print(dir)
+dire = os.getcwd()
+print(dire)
 
 # to list down all files present in current working directory
 files = os.listdir()

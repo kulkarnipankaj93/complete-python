@@ -3,19 +3,21 @@
 # The true power of modules is that they can be imported and reused
 # for example
 print("imported module statement")
+
+
 def addition(a,b):
     return a+b
 
 
-def sub(a,b):
+def sub(a, b):
     return a-b
 
 
-def mul(a,b):
+def mul(a, b):
     return a*b
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     pass
 
 
