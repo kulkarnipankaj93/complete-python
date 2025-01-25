@@ -1,0 +1,37 @@
+What is Git?
+# Git is Version control system. It is popular,fast,scalable,free and open source
+# Version control system is a tool that helps to track changes in code.
+# Git helps in tracking the history of project with every update made. It also helps in collaborating with team members
+# We need to download git to the local machine.
+
+
+What is GitHub?
+# GitHub is a website that allows developers to store and manage their code using git
+# GitHub is proprietary developer platform that allows developers to create,manage, store and share their code
+# We need to create account on GitHub
+# After login we need to create repository at GitHub.
+
+Steps to clone repository to local machine
+# 1. At command prompt go to the location where we want to clone the repository by using command cd path
+# 2. to clone the repository go to github repository and copy HTTPS code url
+# 3. At command prompt run command - git clone url
+# 4. The repository gets cloned at local machine
+
+Steps to check active branch and changes active branch
+# 1. To check current branch we are active on  run command - git branch
+# 2. To checkout or change active branch run command - git checkout branch_name
+
+
+Steps to push changes from local machine to gitHub repository - We can use terminal in pycharm to run commands
+# 1. Pushing changes from local machine to GitHub repository is three step process
+# 2. Once changes are done to local machine we need to add those to staging area by command - git add file_name
+# 3. To add all multiple changes at once we can run command - git add .
+# 4. At any point to check status of our code we can use command - git status
+# 5. To commit the changes we have added run command- git commit -m "msg"
+# 6. Msg is an update we want to show as what we are doing
+# 7. To push the changes commited to GitHub repository run command - git push
+
+Steps to merge changes from branch to main branch
+# 1. Once the changes from local machine are pushed to github branch we need to merge those changes with main branch
+# 2. We need to raise pull request
+# 3. once pull request is raised concern resource need to verify the changes and accept merge request
